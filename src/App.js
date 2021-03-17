@@ -29,33 +29,58 @@ const Navigation = () => (
   </nav>
 );
 
+const Main = () => (
+    <Switch>
+        <Route exact path='/' component={About}></Route>
+        <Route exact path='/application' component={Application}></Route>
+        <Route exact path='/organization' component={Organization}></Route>
+        <Route exact path='/events' component={Events}></Route>
+        <Route exact path='/eligibility' component={Eligibility}></Route>
+    </Switch>
+);
+
 const About = () => (
   <div className="pageContent">
-    about
+    <TextContainer
+      title="About"
+      text="Our Powers ..."
+    />
   </div>
 );
 
 const Application = () => (
   <div className="pageContent">
-    application
+  <TextContainer
+    title="Application"
+    text="This will redirect to a Google Form?"
+  />
   </div>
 );
 
 const Organization = () => (
   <div className="pageContent">
-    organization
+  <TextContainer
+    title="Organization"
+    text="Our Powers ..."
+  />
   </div>
 );
 
 const Events = () => (
   <div className="pageContent">
-    events
+  <TextContainer
+    title="Events"
+    text="Our Powers will bring in several speakers ..."
+  />
   </div>
 );
 
 const Eligibility = () => (
   <div className="pageContent">
-    eligibility
+  <TextContainer
+    title="Eligibility"
+    text="You are encouraged to apply ..."
+  />
   </div>
 );
 
@@ -71,14 +96,15 @@ const Footer = () => (
   </div>
 );
 
-const Main = () => (
-    <Switch>
-        <Route exact path='/' component={About}></Route>
-        <Route exact path='/application' component={Application}></Route>
-        <Route exact path='/organization' component={Organization}></Route>
-        <Route exact path='/events' component={Events}></Route>
-        <Route exact path='/eligibility' component={Eligibility}></Route>
-    </Switch>
-);
+function TextContainer(props){
+  const title = props.title;
+  const text = props.text;
+  return (
+    <div className="textContainer">
+      <h3>{title}</h3>
+      <p>{text}</p>
+    </div>
+  );
+}
 
 export default App;
