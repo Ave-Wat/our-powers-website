@@ -51,11 +51,11 @@ class Header extends React.Component{
     return(
       <nav className={navClass}>
         <ul>
-          <li className={liClass}><NavLink to='/our-powers-website/' className={navLinkClass} onClick={this.closeNav}>About</NavLink></li>
-          <li className={liClass}><NavLink to='/application' className={navLinkClass} onClick={this.closeNav}>Application</NavLink></li>
-          <li className={liClass}><NavLink to='/organization' className={navLinkClass} onClick={this.closeNav}>Organization</NavLink></li>
-          <li className={liClass}><NavLink to='/events' className={navLinkClass} onClick={this.closeNav}>Events</NavLink></li>
-          <li className={liClass}><NavLink to='/eligibility' className={navLinkClass} onClick={this.closeNav}>Eligibility</NavLink></li>
+          <li className={liClass}><NavLink to='/our-powers-website/our-powers-website' className={navLinkClass} onClick={this.closeNav}>About</NavLink></li>
+          <li className={liClass}><NavLink to='/our-powers-website/application' className={navLinkClass} onClick={this.closeNav}>Application</NavLink></li>
+          <li className={liClass}><NavLink to='/our-powers-website/organization' className={navLinkClass} onClick={this.closeNav}>Organization</NavLink></li>
+          <li className={liClass}><NavLink to='/our-powers-website/events' className={navLinkClass} onClick={this.closeNav}>Events</NavLink></li>
+          <li className={liClass}><NavLink to='/our-powers-website/eligibility' className={navLinkClass} onClick={this.closeNav}>Eligibility</NavLink></li>
         </ul>
       </nav>
     );
@@ -92,10 +92,10 @@ class Header extends React.Component{
 const Main = () => (
     <Switch>
         <Route exact path='/our-powers-website/' component={About}></Route>
-        <Route exact path='/application' component={Application}></Route>
-        <Route exact path='/organization' component={Organization}></Route>
-        <Route exact path='/events' component={Events}></Route>
-        <Route exact path='/eligibility' component={Eligibility}></Route>
+        <Route exact path='/our-powers-website/application' component={Application}></Route>
+        <Route exact path='/our-powers-website/organization' component={Organization}></Route>
+        <Route exact path='/our-powers-website/events' component={Events}></Route>
+        <Route exact path='/our-powers-website/eligibility' component={Eligibility}></Route>
     </Switch>
 );
 
