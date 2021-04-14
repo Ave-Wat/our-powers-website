@@ -167,3 +167,9 @@ p {
   border-width: 1px;
   border-color: var(--main-medgray);
 }
+
+@media screen and (max-width: 500px){
+	.pageContent{
+		width: 100vw;
+	}
+}

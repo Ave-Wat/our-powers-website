@@ -23,6 +23,7 @@ class Header extends React.Component{
         isOpen: false
       };
     this.navClicked = this.navClicked.bind(this);
+    this.closeNav = this.closeNav.bind(this);
   }
 
   navClicked(event){
@@ -37,6 +38,29 @@ class Header extends React.Component{
     }
   }
 
+  closeNav(event){
+    this.setState({
+      isOpen: false
+    });
+  }
+
+  Navigation = (props) => {
+    const navClass = props.navClass;
+    const liClass = props.liClass;
+    const navLinkClass = props.navLinkClass;
+    return(
+      <nav className={navClass}>
+        <ul>
+          <li className={liClass}><NavLink to='/' className={navLinkClass} onClick={this.closeNav}>About</NavLink></li>
+          <li className={liClass}><NavLink to='/application' className={navLinkClass} onClick={this.closeNav}>Application</NavLink></li>
+          <li className={liClass}><NavLink to='/organization' className={navLinkClass} onClick={this.closeNav}>Organization</NavLink></li>
+          <li className={liClass}><NavLink to='/events' className={navLinkClass} onClick={this.closeNav}>Events</NavLink></li>
+          <li className={liClass}><NavLink to='/eligibility' className={navLinkClass} onClick={this.closeNav}>Eligibility</NavLink></li>
+        </ul>
+      </nav>
+    );
+  }
+
   render(){
     if(isMobile){
       return(
@@ -44,12 +68,11 @@ class Header extends React.Component{
           <button type="button" onClick={this.navClicked}> <i className="fas fa-bars"></i></button>
           <h1>Our Powers</h1>
           {this.state.isOpen === true &&
-            <Navigation
+            <this.Navigation
               navClass="mobileNav"
               liClass="mobileLi"
               navLinkClass="mobileNavLink"
             />
-            //note: add close button?
           }
         </header>
       );
@@ -57,7 +80,7 @@ class Header extends React.Component{
       return(
         <header>
           <h1>Our Powers</h1>
-          <Navigation
+          <this.Navigation
             navLinkClass="fullScreenNavLink"
           />
         </header>
@@ -66,26 +89,9 @@ class Header extends React.Component{
   }
 }
 
-function Navigation(props) {
-  const navClass = props.navClass;
-  const liClass = props.liClass;
-  const navLinkClass = props.navLinkClass;
-  return(
-    <nav className={navClass}>
-      <ul>
-        <li className={liClass}><NavLink to='/' className={navLinkClass}>About</NavLink></li>
-        <li className={liClass}><NavLink to='/application' className={navLinkClass}>Application</NavLink></li>
-        <li className={liClass}><NavLink to='/organization' className={navLinkClass}>Organization</NavLink></li>
-        <li className={liClass}><NavLink to='/events' className={navLinkClass}>Events</NavLink></li>
-        <li className={liClass}><NavLink to='/eligibility' className={navLinkClass}>Eligibility</NavLink></li>
-      </ul>
-    </nav>
-  );
-}
-
 const Main = () => (
     <Switch>
-        <Route exact path='/' component={About}></Route>
+        <Route exact path='/our-powers-website/' component={About}></Route>
         <Route exact path='/application' component={Application}></Route>
         <Route exact path='/organization' component={Organization}></Route>
         <Route exact path='/events' component={Events}></Route>
@@ -159,6 +165,7 @@ const Footer = () => (
 function TextContainer(props){
   const title = props.title;
   const text = props.text;
+
   return (
     <div className="textContainer">
       <h3>{title}</h3>
