@@ -51,7 +51,7 @@ class Header extends React.Component{
     return(
       <nav className={navClass}>
         <ul>
-          <li className={liClass}><NavLink to='/' className={navLinkClass} onClick={this.closeNav}>About</NavLink></li>
+          <li className={liClass}><NavLink to='/our-powers-website/' className={navLinkClass} onClick={this.closeNav}>About</NavLink></li>
           <li className={liClass}><NavLink to='/application' className={navLinkClass} onClick={this.closeNav}>Application</NavLink></li>
           <li className={liClass}><NavLink to='/organization' className={navLinkClass} onClick={this.closeNav}>Organization</NavLink></li>
           <li className={liClass}><NavLink to='/events' className={navLinkClass} onClick={this.closeNav}>Events</NavLink></li>
