@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './logo.png'
 import './App.css';
 import { NavLink, Switch, Route } from 'react-router-dom';
 import {isMobile} from 'react-device-detect';
@@ -66,7 +67,7 @@ class Header extends React.Component{
       return(
         <header>
           <button type="button" onClick={this.navClicked}> <i className="fas fa-bars"></i></button>
-          <h1>Our Powers</h1>
+          <h1>OUR POWERS</h1>
           {this.state.isOpen === true &&
             <this.Navigation
               navClass="mobileNav"
@@ -79,7 +80,10 @@ class Header extends React.Component{
     } else {
       return(
         <header>
-          <h1>Our Powers</h1>
+          <div id="header-top">
+            <h1>OUR POWERS</h1>
+            <img id="logo" src={logo} />
+          </div>
           <this.Navigation
             navLinkClass="fullScreenNavLink"
           />
@@ -168,7 +172,7 @@ function TextContainer(props){
 
   return (
     <div className="textContainer">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p>{text}</p>
     </div>
   );

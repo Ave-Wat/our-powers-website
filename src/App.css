@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Slab&family=Montserrat&family=Fraunces&display=swap');
 
 :root {
 	--main-whitegray: #F8F8F8;
@@ -17,7 +17,7 @@
 }
 
 body {
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -40,19 +40,32 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height: calc(4.15em + 10px);
+  height: calc(4.15em + 30px);
   z-index: 1;
 	/*background-image: linear-gradient(var(--main-whitegray), rgba(255,215,0));*/
 	background-color: var(--main-sienna);
   box-shadow: 0px 2px 5px #888888;
 	color: var(--main-whitegray);
-	font-family: 'Cinzel', serif;
+	font-family: 'Fraunces', sans-serif;
 	width: 100vw;
 }
 
 h1 {
-  margin: 0;
-  margin-left: calc(30px + 1rem);
+	float: left;
+  margin: 10px 0px;
+  margin-left: 100px;
+}
+
+#logo {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+  display: block;
+  max-width:100px;
+  max-height:65px;
+  width: auto;
+  height: auto;
+	filter: brightness(150%);
 }
 
 nav {
@@ -120,7 +133,7 @@ i {
 }
 
 .pageContainer {
-  margin-top: calc(4.15em + 10px);
+  margin-top: calc(4.15em + 30px);
   display: flex;
 }
 
@@ -128,7 +141,7 @@ i {
   float: left;
   width: 75vw;
   overflow-y: auto;
-  height: calc(100vh - 5.44em - 10px - 50px);
+  height: calc(100vh - 5.44em - 30px - 50px);
 }
 
 .textContainer {
@@ -140,10 +153,10 @@ i {
 
 }
 
-h3 {
+h2 {
 	color: var(--main-sienna);
-	font-family: 'Cinzel', serif;
-	margin: 0;
+	font-family: 'Fraunces', sans-serif;
+	margin: 0 0 10px 0;
 }
 
 p {
@@ -153,7 +166,7 @@ p {
 .sidebar {
   float: left;
   width: 25vw;
-  height: calc(100vh - 5.44em - 10px - 50px - 60px);
+  height: calc(100vh - 5.44em - 30px - 50px - 60px);
   border-width: 1px;
   border-left-style: solid;
   border-color: var(--main-medgray);
