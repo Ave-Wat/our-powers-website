@@ -199,4 +199,8 @@ iframe {
 	.pageContent{
 		width: 100vw;
 	}
+
+	iframe {
+		width: 100vw;
+	}
 }
