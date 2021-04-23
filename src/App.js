@@ -198,7 +198,8 @@ function Sidebar() {
 
 const Footer = () => (
   <div className="footer">
-  footer
+    <h2>Contact Us</h2>
+    <a href="mailto:OURPOWERS.ethieri@gmail.com">OURPOWERS.ethieri@gmail.com</a>
   </div>
 );
 

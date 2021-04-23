@@ -140,7 +140,8 @@ i {
 .pageContent {
   float: left;
   width: 75vw;
-  min-height: calc(100vh - 5.44em - 30px - 50px);
+  min-height: calc(100vh - 5.7em - 150px);
+	margin-top: -20px;
 }
 
 .textContainer {
@@ -165,11 +166,12 @@ p {
 .sidebar {
   float: left;
   width: 25vw;
-  min-height: calc(100vh - 5.44em - 30px - 50px - 60px);
-  border-width: 1px;
+  min-height: calc(100vh - 5.44em - 150px);
+  /*border-width: 1px;
   border-left-style: solid;
-  border-color: var(--main-medgray);
+  border-color: var(--main-medgray);*/
   padding: 30px 10px;
+	margin-top: -20px;
 }
 
 iframe {
@@ -180,13 +182,17 @@ iframe {
 }
 
 .footer {
-  height: 50px;
+  height: 60px;
   padding: 10px 30px;
-  border-top-style: solid;
+  /*border-top-style: solid;
   border-width: 1px;
-  border-color: var(--main-medgray);
+  border-color: var(--main-medgray);*/
 	background-color: var(--main-whitegray);
 	z-index: 2;
+}
+
+.footer a {
+	color: black;
 }
 
 @media screen and (max-width: 500px){
