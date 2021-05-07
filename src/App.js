@@ -6,7 +6,7 @@ import {isMobile} from 'react-device-detect';
 import Header from './Header.js';
 import About from './pages/About.js';
 import Application from './pages/Application.js';
-import Organization from './pages/Organization.js';
+import History from './pages/History.js';
 import Events from './pages/Events.js';
 import Eligibility from './pages/Eligibility';
 
@@ -26,9 +26,9 @@ const Main = () => (
   <Switch>
     <Route exact path='/' component={About}></Route>
     <Route exact path='/application' component={Application}></Route>
-    <Route exact path='/organization' component={Organization}></Route>
     <Route exact path='/events' component={Events}></Route>
     <Route exact path='/eligibility' component={Eligibility}></Route>
+    <Route exact path='/history' component={History}></Route>
   </Switch>
 );
 

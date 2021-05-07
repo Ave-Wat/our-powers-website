@@ -167,7 +167,6 @@ i {
 
 .textContainer li{
 	line-height: 1.5;
-	padding-top: 10px;
 }
 
 h2 {
@@ -180,6 +179,12 @@ h3 {
 	color: var(--main-sienna);
 	font-family: 'Fraunces', sans-serif;
 	margin:0 0 10px 0;
+}
+
+h4 {
+	display: inline;
+	color: var(--main-sienna);
+	font-family: 'Fraunces', sans-serif;
 }
 
 p {

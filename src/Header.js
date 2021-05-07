@@ -40,9 +40,9 @@ class Header extends React.Component{
       <ul>
       <li className={liClass}><NavLink to='/' className={navLinkClass} onClick={this.closeNav}>About</NavLink></li>
       <li className={liClass}><NavLink to='/application' className={navLinkClass} onClick={this.closeNav}>Application</NavLink></li>
-      <li className={liClass}><NavLink to='/organization' className={navLinkClass} onClick={this.closeNav}>Organization</NavLink></li>
       <li className={liClass}><NavLink to='/events' className={navLinkClass} onClick={this.closeNav}>Events</NavLink></li>
       <li className={liClass}><NavLink to='/eligibility' className={navLinkClass} onClick={this.closeNav}>Eligibility</NavLink></li>
+      <li className={liClass}><NavLink to='/history' className={navLinkClass} onClick={this.closeNav}>History</NavLink></li>
       </ul>
       </nav>
     );
