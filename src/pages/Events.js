@@ -16,7 +16,7 @@ function Events () {
           Week 1
           <p>Dates: June 30, 2021 & July 3, 2021</p>
           <p>Topic: Reproductive Health and Contraceptive Methods</p>
-          <p>Guest Speakers: Faris Cuchi</p>
+          <p>Guest Speaker: Faris Cuchi</p>
           <div><p>Faris is an intersectional LGBTIQ+/human rights activist based in Vienna, who oversees House of Guramayle’s activities in Austria. They are the co-host and creator of the Alen Show, which dismantles dishonest information about the Ethiopian LGBTIQ+ community one episode at a time. Faris is a computer science graduate and has worked as an IT expert with the INGO PSI-Ethiopia. They are also a Salzburg Global Seminar Fellow.*
 
           Taken from the following website: https://houseofguramayle.org/our-story/.</p></div>
@@ -37,7 +37,7 @@ function Events () {
           Week 4
           <p>Dates: July 21, 2021 & July 24, 2021</p>
           <p>Topic: Gender Identity and Sexual Health</p>
-          <p>Guest Speakers: Faris Cuchi</p>
+          <p>Guest Speaker: Faris Cuchi</p>
           </li>
           <li>
           Week 5
