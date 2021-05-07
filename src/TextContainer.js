@@ -1,9 +1,10 @@
 function TextContainer(props){
   const text = props.text;
-  const list = props.list;
+  const title = props.title;
   return (
     <div className="textContainer">
-    <div>{text}</div>
+      <h2>{title}</h2>
+      <div>{text}</div>
     </div>
   );
 }

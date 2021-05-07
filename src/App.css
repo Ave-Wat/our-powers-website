@@ -144,19 +144,19 @@ i {
 .pageContent {
   float: left;
   width: 75vw;
-  min-height: calc(100vh - 5.7em - 90px);
+  min-height: calc(100vh - 5.7em - 105px);
 	margin-top: -20px;
 }
 
 .soloPageContent {
   width: 100vw;
-  min-height: calc(100vh - 5.7em - 90px);
-	margin: -20px auto 0 auto;
+  min-height: calc(100vh - 5.7em - 105px);
 }
 
 .textContainer {
-  margin: 30px;
+  margin: 30px auto;
 	padding: 30px;
+	max-width: 65vw;
 	background: rgba(244, 211, 192, .5);
 	line-height: 1.4;
 	font-size: 90%;
@@ -188,7 +188,7 @@ p {
 
 .sidebar {
   float: left;
-  width: 25vw;
+  width: calc(25vw - 10px);
   min-height: calc(100vh - 5.44em - 150px);
   /*border-width: 1px;
   border-left-style: solid;
@@ -234,5 +234,18 @@ iframe {
 
 	iframe {
 		width: 90vw;
+	}
+
+	.textContainer {
+		margin: 30px;
+		max-width: 90vw;
+	}
+
+	#logo {
+		width: 0px;
+	}
+
+	header h1 {
+		margin: 10px 10px 10px 50px;
 	}
 }

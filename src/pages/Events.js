@@ -2,12 +2,14 @@ import TextContainer from '../TextContainer';
 
 function Events () {
   return (
-    <div className="pageContent">
+    <div className="soloPageContent">
       <TextContainer
+        title="Structure"
         text="OUR POWERS is a new five-week summer workshop. Each week, there will be a different focus on sexual health and reproductive health. We will bring in guest speakers to inform and guide the conversations. The workshop is organized so there are two sessions every week. The purpose of the first session is to introduce the week’s topic, presented by a guest speaker. The second session is conducted by the workshop directors in smaller groups to openly discuss the week’s topic. There are activities and questions during the second sessions of each week to guide and encourage participants to have dialogue about how they experience and see each of the topics within their lives and communities."
       />
 
       <TextContainer
+        title="Timeline"
         text={["OUR POWERS is an entirely virtual workshop, so all sessions will be held over zoom. The topics covered for summer 2021 including the date of each session are as follows:",
           <ul>
           <li>
