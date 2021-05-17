@@ -1,7 +1,7 @@
 {
   "name": "our-powers-website",
   "version": "0.1.0",
-  "homepage": "http://ave-wat.github.io/our-powers-website",
+  "homepage": "http://ourpowers.org",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
