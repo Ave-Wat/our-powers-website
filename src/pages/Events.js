@@ -18,11 +18,12 @@ function Events () {
             <h3>Week 1</h3>
             <p>Dates: June 30, 2021 & July 3, 2021</p>
             <p>Topic: Reproductive Health and Contraceptive Methods</p>
-            <p>Guest Speaker: Faris Cuchi</p>
-            <ul><p>Faris is an intersectional LGBTIQ+/human rights activist based in Vienna, who oversees House of Guramayle’s activities in Austria. They are the co-host and creator of the Alen Show, which dismantles dishonest information about the Ethiopian LGBTIQ+ community one episode at a time. Faris is a computer science graduate and has worked as an IT expert with the INGO PSI-Ethiopia. They are also a Salzburg Global Seminar Fellow.</p><p>More information can be found <a href="https://houseofguramayle.org/our-story/">here</a>.</p></ul>
+            <p>Speakers: Eledon Beyene, Betelhem Muno, and Amra Zegeye</p>
             <h3>Week 2</h3>
             <p>Dates: July 07, 2021 & July 10, 2021 </p>
-            <p>Topic: Health Statistics in Ethiopia and Eritrea</p>
+            <p>Topic: Useful and Effective Implementations of Reproductive Health Awareness</p>
+            <p>Guest Speaker: Ketema Bizuneh</p>
+            <ul><p>UNICEF Chief of Health for Kenya and South Sudan</p></ul>
             <h3>Week 3</h3>
             <p>Dates: July 14, 2021 & July 17, 2021</p>
             <p>Topic: Rape Culture</p>
@@ -32,6 +33,7 @@ function Events () {
             <p>Dates: July 21, 2021 & July 24, 2021</p>
             <p>Topic: Gender Identity and Sexual Health</p>
             <p>Guest Speaker: Faris Cuchi</p>
+            <ul><p>Faris is an intersectional LGBTIQ+/human rights activist based in Vienna, who oversees House of Guramayle’s activities in Austria. They are the co-host and creator of the Alen Show, which dismantles dishonest information about the Ethiopian LGBTIQ+ community one episode at a time. Faris is a computer science graduate and has worked as an IT expert with the INGO PSI-Ethiopia. They are also a Salzburg Global Seminar Fellow.</p><p>More information can be found <a href="https://houseofguramayle.org/our-story/">here</a>.</p></ul>
             <h3>Week 5</h3>
             <p>Dates: July 28, 2021 & July 31, 2021</p>
             <p>Topic: Mental Health and Resources</p>

@@ -135,6 +135,7 @@ i {
 .pageContainer {
   margin-top: calc(4.15em + 30px);
   display: flex;
+	width: calc(100vw - 10px)
 }
 
 .sidebarPageContainer {
@@ -144,13 +145,13 @@ i {
 .pageContent {
   float: left;
   width: 75vw;
-  min-height: calc(100vh - 5.7em - 105px);
+  min-height: calc(100vh - 5.7em - 125px);
 	margin-top: -20px;
 }
 
 .soloPageContent {
-  width: 100vw;
-  min-height: calc(100vh - 5.7em - 105px);
+  width: calc(100vw - 15px);
+  min-height: calc(100vh - 5.7em - 100px);
 }
 
 .textContainer {
@@ -194,7 +195,7 @@ p {
 .sidebar {
   float: left;
   width: calc(25vw - 10px);
-  min-height: calc(100vh - 5.44em - 150px);
+  min-height: calc(100vh - 5.44em - 170px);
   /*border-width: 1px;
   border-left-style: solid;
   border-color: var(--main-medgray);*/
@@ -219,8 +220,8 @@ iframe {
 }
 
 .footer {
-  height: 60px;
-  padding: 10px 30px;
+  height: 90px;
+  padding: 10px 30px 20px 30px;
   /*border-top-style: solid;
   border-width: 1px;
   border-color: var(--main-medgray);*/

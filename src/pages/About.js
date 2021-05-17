@@ -11,7 +11,7 @@ function About () {
         />
         <TextContainer
           title="What We Stand For"
-          text={[<p><nobr><h4>O</h4>wnership of our bodies</nobr></p>, <p><nobr><h4>U</h4>plifting each other</nobr></p>, <p><nobr><h4>R</h4>eproductive health knowledge</nobr></p>,<br></br>,<p><nobr><h4>P</h4>owerful changes</nobr></p>, <p><nobr><h4>O</h4>rganizing and building</nobr></p>, <p><nobr><h4>W</h4>omen and girls</nobr></p>, <p><nobr><h4>E</h4>thiopian and Eritrean</nobr></p>, <p><nobr><h4>R</h4>aising our voices</nobr></p>, <p><nobr><h4>S</h4>exual health education</nobr></p>]}
+          text={[<div><nobr><h4>O</h4>wnership of our bodies</nobr></div>, <div><nobr><h4>U</h4>plifting each other</nobr></div>, <div><nobr><h4>R</h4>eproductive health knowledge</nobr></div>,<br></br>,<div><nobr><h4>P</h4>owerful changes</nobr></div>, <div><nobr><h4>O</h4>rganizing and building</nobr></div>, <div><nobr><h4>W</h4>omen and girls</nobr></div>, <div><nobr><h4>E</h4>thiopian and Eritrean</nobr></div>, <div><nobr><h4>R</h4>aising our voices</nobr></div>, <div><nobr><h4>S</h4>exual health education</nobr></div>]}
         />
       </div>
       <Sidebar

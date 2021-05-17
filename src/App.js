@@ -35,7 +35,8 @@ const Main = () => (
 const Footer = () => (
   <div className="footer">
     <h2>Contact Us</h2>
-    <a href="mailto:OURPOWERS.ethieri@gmail.com">OURPOWERS.ethieri@gmail.com</a>
+    <p><a href="mailto:OURPOWERS.ethieri@gmail.com">OURPOWERS.ethieri@gmail.com</a></p>
+    <p>Follow us on Instagram <a href="https://www.instagram.com/ourpowers.ethieri/">@ourpowers.ethieri</a></p>
   </div>
 );
 
