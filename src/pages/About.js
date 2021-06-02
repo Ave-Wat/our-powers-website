@@ -16,7 +16,7 @@ function About () {
       </div>
       <Sidebar
         title="Apply Now"
-        text={["Find our Application ", <a href='https://ourpowers.org/#/application'>here</a>, ".", <p><br></br>The application is due June 1, 2021 at 11:59PM Central Time.</p>]}
+        text={["Find our Application ", <a href='https://ourpowers.org/#/application'>here</a>, ".", <p><br></br>The application is due June 15, 2021 at 11:59PM Central Time.</p>]}
       />
     </div>
   );
